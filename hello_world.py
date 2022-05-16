@@ -1,3 +1,4 @@
+"""Main app"""
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
@@ -11,3 +12,5 @@ session = Session()
 print("Hello World!")
 print("Hello World again!")
 
+a = Plate()
+b = PlateSet()
