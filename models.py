@@ -27,3 +27,10 @@ class PlateSet(Base):
     is_active = Column(Boolean)
     plate_id = Column(Integer, ForeignKey('plates.id'))
     plate = relationship("Plate", back_populates="plate_sets")
+
+class Campaign():
+    pass
+
+def random_sampling(numbers, count):
+    """draw count number of random items from list numbers"""
+
